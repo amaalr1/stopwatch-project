@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+
+}
+
+
+
+.stopwatch{
+    margin: 70px auto;
+    text-align: center;
+    font-size: 65px;
+    font: Roboto;
+    font-weight: bold;
+    color: rgb(19, 129, 19);   
+}
+
+.time-display{
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    height: 90px;
+    width: 400px;
+    padding-top: 10px;
+    align-items: center;
+    margin-left: 200px;
+    border-radius: 20px;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.start-stop-button, .reset-button{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+
+}
+
+
+
+
+.reset-button{
+    background-color:rgb(8, 21, 163);
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.start-stop-button{
+    margin-right: 30px;
+    background-color:rgb(17, 133, 17);
+    border: none;
+    cursor: pointer;
+
+}
+
+
+
